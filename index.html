@@ -7,15 +7,12 @@
         <link rel = "stylesheet" href = "href=https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <img src = "img/orchestra.jpeg" alt = "" class="logo__img">
-            </div>
             <button class= "nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -24,7 +21,7 @@
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#experiences" class="nav__link">My Experiences</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,28 +31,31 @@
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Wanxin Hu</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <p class="section__subtitle section__subtitle--intro">Nice to meet you!</p>
             <img src="img/headshot.jpg" alt = "a picture of Wanxin Hu" class="intro__img">
         </section>
+
 
         <!--experience-->
         <section class="my-experiences" id = "experiences">
             <h2 class="section__title section__title--experiences">What I do</h2>
             <div class="experiences">
                 <div class="experience">
-                    <h3>DSO</h3>
-                    <p>I am a member of violin section in Dartmouth Symphony Orchestra.</p>
+                    <h3>Dartmouth Symphony Orchestra</h3>
+                    <p>I am a member of violin section in Dartmouth Symphony Orchestra since freshman fall, and I've performed in several concerts as well. Before I come to Dartmouth, I was a member of Shanghai Student Orchestra. Favorite Symphony: Dvorak "From the New World".</p>
+                </div> <!--close experience-->
+
+                <div class="experience">
+                    <h3>Women In Science Project</h3>
+                    <p>I've been working with Professor Bo Zhu under the Women in Science Project in the past two terms, and I was responsible for geometry processing and writing simulation test cases. This experience allows me to learn C++ and physical simulation in a scientific environment.</p>
                 </div> <!--close experience-->
 
                 <div class="experience">
                     <h3>Women in Business</h3>
-                    <p>I am the Corporate Relations Chair of Women in Business in 22W and 22S.</p>
+                    <p>I am the Corporate Relations Chair of Women in Business in 22W and 22S, and I was responsible for contacting recruiters and alumni for potential collaboration opportunities, and successfully held Q&A panels and info sessions in the past.</p>
                 </div> <!--close experience-->
+                
 
-                <div class="experience">
-                    <h3>WISP</h3>
-                    <p>I've been working as a research assistant in Women in Science Project, with a focus on physical computing and computer graphics.</p>
-                </div> <!--close experience-->
             </div><!--close experiences-->
             <a href="#resume" class="btn">My Resume</a>
         </section>
@@ -65,18 +65,17 @@
             <h2 class="section__title section__title--about">Who I am?</h2>
             <p class="section__subtitle section__subtitle--about">Rising Sophomore at Dartmouth College</p>
             <div class="about-me__body">
-                <p>Hi, I am a rising sophomore at Dartmouth College, studying computer science and ecnomics.</p>
-                <p>I come from Shanghai, China.</p>
+                <p>Hi! I am a rising sophomore at Dartmouth College, planning to double major in computer science and ecnomics. I hope to pursue further education in computer science or work as a engineer after graduation.</p>
+                <p>I spent my past 19 years in Shanghai, China, which is a beautiful city that I love. However, leaving my hometown and going to Dartmouth College is something I will never regret!</p>
             </div>
-            <img src="img/headshot.jpg" alt = "baker" class="about-me__img">
+            <img src="img/standingpic" alt = "baker" class="about-me__img">
         </section>
 
         <!--My resume need personalized!!-->
-        <section class="my-resume" id = "resume">
+        <section class="resume" id = "resume">
             <h2 class="section__title section__title--resume">Resume</h2>
-            <p class="section__subtitle">Here is my Resume.</p>
             <div class="resume__body">
-                <p>Hi, here's my resume.</p>
+                <embed src="file/Wanxin Hu Resume 2022.04.14.pdf" width="1000" height="500" class="resume__file">   
             </div>
         </section>
 
